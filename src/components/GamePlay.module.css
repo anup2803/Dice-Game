@@ -1,0 +1,51 @@
+.top_sections{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 151px;
+
+}
+
+main{
+    padding-top: 70px;
+}
+
+.btn{
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+ padding: 10 20px;
+    
+    background-color: #000000;
+    border-radius: 5px;
+    min-width: 220px;
+    height: 44px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.4s background ease-in;
+}
+   
+
+
+
+.white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}

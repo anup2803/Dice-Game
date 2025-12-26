@@ -1,0 +1,32 @@
+.container{
+    max-width:1180px;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.button {
+    padding: 10 20px;
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    min-width: 220px;
+    height: 44px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.4s background ease-in;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s background ease-in;
+}
+.content h1{
+    font-size: 96px;
+    white-space: nowrap;
+}

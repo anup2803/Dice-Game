@@ -1,0 +1,21 @@
+.RulesContainer{
+    background-color: #fbf1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    max-width: 794px;
+    margin-bottom: 10px;
+}
+
+.RulesContainer h2{
+    font-size: 24px;
+}
+
+.RulesContainer text{
+    margin-top: 24px;
+}
