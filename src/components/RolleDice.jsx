@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
-import styles from "./RolleDice.module.css"
+import React, { useState } from "react";
+import styles from "./RolleDice.module.css";
 
-const RolleDice = ({currentDice,rollDice}) => {
-    
-
-
+const RolleDice = ({ currentDice, rollDice }) => {
   return (
     <div className={styles.DiceContainer}>
-        <div className={styles.Dice} onClick={rollDice}> 
-         <img src={`/images/Dice/dice_${currentDice}.png`} alt="Dice 1" />
-        </div>
-     
-     <p>Click on Dice to roll</p>
-    </div>
-  )
-}
+      <div className={styles.Dice} onClick={rollDice}>
+        <img
+          src={`${import.meta.env.BASE_URL}images/Dice/dice_${currentDice}.png`}
+          alt={`Dice ${currentDice}`}
+        />
+      </div>
 
-export default RolleDice
+      <p>Click on Dice to roll</p>
+    </div>
+  );
+};
+
+export default RolleDice;
